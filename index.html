@@ -11,11 +11,32 @@
 </head>
 <body>
 
-  <!-- Hero / Introducción -->
+  <!-- Hero -->
   <header class="hero">
     <div class="container">
-      <h1>Fortis Code</h1>
+      <div class="logo-wrapper">
+        <!-- Logo SVG geométrico abstracto (Opción 2) -->
+        <svg class="logo-f" width="90" height="90" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path 
+            d="M30 20 L70 20 L70 40 L50 60 L70 80 L30 80 L30 60 L50 40 Z" 
+            fill="none" 
+            stroke="#0077ff" 
+            stroke-width="12" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"
+          />
+          <path 
+            d="M50 40 L50 60" 
+            stroke="#4a90ff" 
+            stroke-width="12" 
+            stroke-linecap="round"
+          />
+        </svg>
+        <h1>Fortis Code</h1>
+      </div>
+
       <p class="lead">Creamos experiencias digitales que convierten</p>
+
       <div class="services-highlight">
         <div class="service-card">
           <span class="badge">Landing Page</span>
@@ -28,6 +49,7 @@
           <p>Checkout optimizado • Gestión de stock • Experiencia de compra fluida</p>
         </div>
       </div>
+
       <a href="#contacto" class="btn-primary">Hablar por WhatsApp</a>
     </div>
   </header>
@@ -55,7 +77,6 @@
   <section id="servicios" class="section section-alt">
     <div class="container">
       <h2>Nuestros servicios</h2>
-      
       <div class="services-grid">
         <div class="service-block">
           <div class="service-icon">L</div>
@@ -68,7 +89,6 @@
             <li>Integración con formularios y WhatsApp</li>
           </ul>
         </div>
-
         <div class="service-block">
           <div class="service-icon">E</div>
           <h3>Tienda Online</h3>
@@ -88,7 +108,7 @@
   <section id="contacto" class="section contact-section">
     <div class="container">
       <h2>Hablemos de tu proyecto</h2>
-      <p class="contact-subtitle">Respuesta en menos de 2 horas</p>
+      <p class="contact-subtitle">Respuesta en menos de 2 horas (días hábiles)</p>
 
       <div class="contact-options">
         <a href="https://wa.me/5493825580634?text=Hola%20Fortis%20Code!%20Quiero%20consultar%20por..." 
@@ -109,9 +129,29 @@
     </div>
   </section>
 
+  <!-- Footer con logo -->
   <footer>
     <div class="container">
-      <p>Fortis Code © 2026 — Desarrollo web que genera resultados</p>
+      <div class="footer-logo-wrapper">
+        <!-- Mismo logo pero más pequeño -->
+        <svg class="logo-f small" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path 
+            d="M30 20 L70 20 L70 40 L50 60 L70 80 L30 80 L30 60 L50 40 Z" 
+            fill="none" 
+            stroke="#0077ff" 
+            stroke-width="12" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"
+          />
+          <path 
+            d="M50 40 L50 60" 
+            stroke="#4a90ff" 
+            stroke-width="12" 
+            stroke-linecap="round"
+          />
+        </svg>
+        <p>Fortis Code © 2026 — Desarrollo web que genera resultados</p>
+      </div>
     </div>
   </footer>
 
